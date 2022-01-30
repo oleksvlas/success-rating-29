@@ -1,0 +1,120 @@
+body{
+    font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    margin:0;
+}
+div {
+    margin-bottom: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #4C596C;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4C596C;
+    text-align: center;
+}
+
+.a1 {
+    display: inline-block;
+    width: 43%;
+    height: 100px;
+    background-color: #e6262c;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+
+.a1:hover {
+    background-color: #ed5055;
+}
+
+.a2 {
+    display: inline-block;
+    width: 43%;
+    height: 100px;
+    background-color: #ff860c;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+
+.a2:hover {
+    background-color: #fea852;
+}
+
+.header img {
+    height: 500px;
+}
+
+.a1-group {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: #e6262c;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #FFF;
+    margin: auto;
+    border-bottom: 3px solid #4C596C;
+    border-top: 3px solid #4C596C;
+}
+td {
+    color: #669;
+    background-color: #FFF;
+    padding: 10px 15px;
+    text-align: center;
+    border-left: 1px solid #e8edff;
+    border-right: 1px solid #e8edff;
+    border-top: 1px solid #e8edff;
+}
+
+.mark_bad {
+    background-color: #feb8a4;
+}
+.mark_good {
+    background-color: #fae7d4;
+}
+.mark_help {
+    background-color: #c9aed0;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 50px;
+    color: #333333;
+}
+.limit td {
+    background-color: #d6e7bd;
+}
+.table_head td{
+    font-weight: normal;
+    color: #FFF;
+    background-color: #95bde2;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.table_top {
+    border-top: 3px solid #4C596C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}

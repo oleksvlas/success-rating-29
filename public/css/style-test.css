@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}
+
+.main {
+    padding: 10px;
+}
+
+.g291 {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: #e6262c;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+
+.g291:hover {
+    background-color: #ed5055;
+}
+
+.cadetCard {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #eff3f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    padding: 5px;
+}
+
+.cadetInfo {
+    display: flex;
+    width: 100%;
+    height: 74px;
+    margin-bottom: 5px;
+}
+
+.cadetStatus {
+    padding: 5px;
+    background-color: #fae7d4;
+    border-right: 4px solid #e8edff;
+}
+
+.cadetStatus img {
+    width: 64px;
+    height: 64px;
+}
+
+.cadetPIB {
+    background-color: #fae7d4;
+    font-size: 24px;
+    text-align: left;
+    padding: 25px 50px;
+    color: #333333;
+}
+
+.disciplineInfo {
+    display: flex;
+    padding: 5px;
+    background-color: green;
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+
+}
+
+@media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+
+}
